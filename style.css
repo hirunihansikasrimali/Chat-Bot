@@ -7,9 +7,18 @@
 body{
     width: 100%;
     min-height: 100vh;
-    /* background: black; */
+    background: black;
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card{
+    width: 50%;
+    height: 200px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
