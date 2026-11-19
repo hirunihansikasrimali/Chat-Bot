@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Chat Bot</h1>
-        <div class="card">
-            <input type="text" id="txtUserInput">
-            <input type="button" value="send" onclick="sendButton()">
-            <p id="lblDisplay"></p>
-        </div>
-    </div>
     
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Chat Bot</h1>
+
+        <div class="card">
+
+            <div class="container">
+                <input type="text" id="txtUserInput" placeholder="Type your message...">
+
+                <input type="button" value="Send" onclick="sendButton()">
+            </div>
+
+            <div id="lblDisplay"></div>
+
+        </div>
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
     <script src="app.js"></script>
+
 </body>
+
 </html>
