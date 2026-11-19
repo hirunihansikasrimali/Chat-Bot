@@ -52,4 +52,6 @@ h1 {
 #sendButton{
     background: rgba(255, 255, 255, 0.1);
     border: 0;
+    width: 65px;
+    height: 45px;
 }
